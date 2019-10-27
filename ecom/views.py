@@ -14,3 +14,15 @@ def product(request):
 
 def login(request):
     return render(request,'ecom/login.html')
+
+def cart(request):
+    return render(request,'ecom/cart.html')
+
+def checkout(request):
+    return render(request,'ecom/checkout.html')
+
+def confirmation(request):
+    return render(request,'ecom/confirmation.html')
+
+def tracking(request):
+    return render(request,'ecom/tracking.html')
